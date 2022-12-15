@@ -2,10 +2,10 @@
 Quick and dirty solution for actuating servos with a PS3 controller. Read at your own risk &amp; no guarantees it will work for your project. PS3 controller registered to Windows PC with [DsHidMini](https://github.com/ViGEm/DsHidMini) and converted to XInput. This code worked with an Arduino Uno, and a 1-dof arm with one servo for the arm and one servo for the gripper. This scheme could potentially work for up to 6 servos (1 for each button + L1/R1 trigger. We lose L2/R2 triggers due to being recognized as an XBox 360 controller). Also be warned: `controller.py` connection occasionally drops.
 
 # Libraries used
--Python: pyserial, pygame
--Arduino IDE: Servo.h
--Original PS4 pygame class & connection credit to: https://gist.github.com/claymcleod/028386b860b75e4f5472
--Pyserial - Arduino connection credit to: https://create.arduino.cc/projecthub/ansh2919/serial-communication-between-python-and-arduino-e7cce0
+- Python: pyserial, pygame
+- Arduino IDE: Servo.h
+- Original PS4 pygame class & connection credit to: https://gist.github.com/claymcleod/028386b860b75e4f5472
+- Pyserial - Arduino connection credit to: https://create.arduino.cc/projecthub/ansh2919/serial-communication-between-python-and-arduino-e7cce0
 
 # to run
 1. Connect your Arduino and controller via USB to PC or controller
