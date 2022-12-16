@@ -55,12 +55,12 @@ void loop() {
     Serial.print(servo1Angle);
     if (servo1Angle > MAX_ANGLE) {
       Serial.print("MAX ANGLE REACHED");
-      if (x == -1) {
+      if (x == -2) {
         servo1Angle += x;
       }
     } else if (servo1Angle < MIN_ANGLE) {
       Serial.print("MIN ANGLE REACHED");
-      if (x == 1) {
+      if (x == 2) {
         servo1Angle += x;
       }
     } else {
